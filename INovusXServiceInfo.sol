@@ -13,4 +13,8 @@ interface INovusXServiceInfo {
 
     /// @notice Returns the type/category of the service (e.g. "DID", "KYC", "Registry").
     function getType() external view returns (string memory);
+
+
+    // @notice Returns the Contract name of the service.
+    function getName() external view returns (string memory);
 }
