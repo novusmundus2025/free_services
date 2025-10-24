@@ -4,27 +4,32 @@
       {
         "id": "higher",
         "label": "Higher Education",
-        "issuer": "PRIMARY"
+        "issuer": "primary"
       },
       {
         "id": "basic",
         "label": "Basic Education",
-        "issuer": "DEPED"
+        "issuer": "DepEd"
       },
       {
         "id": "vocational",
         "label": "Vocational Education",
         "issuer": "TESDA"
+      },
+      {
+        "id": "admin",
+        "label": "Admin",
+        "issuer": "admin"
       }
     ],
     "location": [
       {
         "id": "local",
-        "label": "LOCAL"
+        "label": "Local"
       },
       {
         "id": "international",
-        "label": "INTERNATIONAL"
+        "label": "International"
       }
     ]
   }
