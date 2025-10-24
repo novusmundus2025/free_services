@@ -1,36 +1,21 @@
 {
-  "diplomaOptions": {
-    "educationLevel": [
-      {
-        "id": "higher",
-        "label": "Higher Education",
-        "issuer": "primary"
+  "credentialType": {
+    "diploma": {
+      "higher": {
+        "local": ["PRIMARY", "CHED", "ADMIN"],
+        "international": ["PRIMARY", "CHED", "DFA", "ADMIN"]
       },
-      {
-        "id": "basic",
-        "label": "Basic Education",
-        "issuer": "DepEd"
+      "basic": {
+        "local": ["PRIMARY", "DEPED", "ADMIN"],
+        "international": ["PRIMARY", "DEPED", "DFA", "ADMIN"]
       },
-      {
-        "id": "vocational",
-        "label": "Vocational Education",
-        "issuer": "TESDA"
-      },
-      {
-        "id": "admin",
-        "label": "Admin",
-        "issuer": "admin"
+      "vocational": {
+        "local": ["PRIMARY", "TESDA", "ADMIN"],
+        "international": ["PRIMARY", "TESDA", "DFA", "ADMIN"]
       }
-    ],
-    "location": [
-      {
-        "id": "local",
-        "label": "Local"
-      },
-      {
-        "id": "international",
-        "label": "International"
-      }
-    ]
+    },
+    "passport": {
+      "international": ["PRIMARY", "DFA", "ADMIN"]
+    }
   }
 }
