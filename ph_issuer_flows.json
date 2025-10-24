@@ -18,6 +18,14 @@
       "regular": ["DFA", "ADMIN"],
       "official": ["DFA", "ADMIN"],
       "diplomatic": ["DFA", "ADMIN"]
+    },
+    "nationalID": {
+      "philSys": ["PSA", "ADMIN"]
+    },
+    "drivingLicense": {
+      "studentPermit": ["LTO", "ADMIN"],
+      "nonProfessional": ["LTO", "ADMIN"],
+      "professional": ["LTO", "ADMIN"]
     }
   }
 }
