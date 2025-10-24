@@ -15,7 +15,9 @@
       }
     },
     "passport": {
-      "international": ["PRIMARY", "DFA", "ADMIN"]
+      "regular": ["DFA", "ADMIN"],
+      "official": ["DFA", "ADMIN"],
+      "diplomatic": ["DFA", "ADMIN"]
     }
   }
 }
