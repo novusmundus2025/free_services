@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "hashedFields": {
+      "@id": "https://example.org/terms/hashedFields",
+      "@container": "@index",
+      "@context": {
+        "@version": 1.1,
+        "degree": "https://example.org/terms/degree",
+        "school": "https://example.org/terms/school",
+        "fullName": "https://example.org/terms/fullName",
+        "firstName": "https://example.org/terms/firstName",
+        "middleName": "https://example.org/terms/middleName",
+        "lastName": "https://example.org/terms/lastName",
+        "studentId": "https://example.org/terms/studentId",
+        "graduationDate": "https://example.org/terms/graduationDate",
+        "gpa": "https://example.org/terms/gpa",
+        "honors": "https://example.org/terms/honors",
+        "thesisTitle": "https://example.org/terms/thesisTitle",
+        "licenseEligibility": "https://example.org/terms/licenseEligibility"
+      }
+    }
+  }
+}
