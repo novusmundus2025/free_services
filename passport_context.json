@@ -1,0 +1,25 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "hashedFields": {
+      "@id": "https://vortex.novusx.com/terms/hashedFields",
+      "@container": "@index",
+      "@context": {
+        "@version": 1.1,
+        "type": "https://vortex.novusx.com/terms/holderType",
+        "firstName": "https://vortex.novusx.com/terms/firstName",
+        "lastName": "https://vortex.novusx.com/terms/lastName",
+        "dateOfBirth": "https://vortex.novusx.com/terms/dateOfBirth",
+        "placeOfBirth": "https://vortex.novusx.com/terms/placeOfBirth",
+        "gender": "https://vortex.novusx.com/terms/gender",
+        "nationality": "https://vortex.novusx.com/terms/nationality",
+        "passportNumber": "https://vortex.novusx.com/terms/passportNumber",
+        "passportType": "https://vortex.novusx.com/terms/passportType",
+        "issuingCountry": "https://vortex.novusx.com/terms/issuingCountry",
+        "issuingAuthority": "https://vortex.novusx.com/terms/issuingAuthority",
+        "issueDate": "https://vortex.novusx.com/terms/issueDate",
+        "expiryDate": "https://vortex.novusx.com/terms/expiryDate"
+      }
+    }
+  }
+}
